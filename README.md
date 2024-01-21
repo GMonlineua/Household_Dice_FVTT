@@ -9,7 +9,7 @@
 To install a module, follow these instructions:
 
 1. Start FVTT and browse to the Game Modules tab in the Configuration and Setup menu
-2. Select the Install Module button and enter the following URL: https://raw.githubusercontent.com/GMonlineua/Household_Dice_FVTT/master/system.json
+2. Select the Install Module button and enter the following URL: https://raw.githubusercontent.com/GMonlineua/Household_Dice_FVTT/master/module.json
 3. Click Install and wait for installation to complete
 
 [Foundry Shield 11]: https://img.shields.io/badge/Foundry-11-informational?style=flat-square

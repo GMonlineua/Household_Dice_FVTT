@@ -1,0 +1,19 @@
+<div class="roll-message hhd-roll-message">
+  <h1>{{testName}}</h1>
+
+  <div class="roll-info">
+    <ol class="dice-rolls">
+      {{#each commonDice }}
+        <li class="dice" style="background-image: url('{{getImageForValue this.value}}');"></li>
+      {{/each}}
+    </ol>
+  </div>
+
+  <div class="roll-results">
+    {{#if basicSuccess}}<p class="success basicSuccess">{{basicSuccess}} Basic Success</p>{{/if}}
+    {{#if criticalSuccess}}<p class="success criticalSuccess">{{criticalSuccess}} Critical Success!</p>{{/if}}
+    {{#if extremeSuccess}}<p class="success extremeSuccess">{{extremeSuccess}} Extreme Success!</p>{{/if}}
+    {{#if impossibleSuccess}}<p class="success impossibleSuccess">Impossible Success!!!</p>{{/if}}
+    {{#if failure}}<p class="failure">Failure</p>{{/if}}
+  </div>
+</div>

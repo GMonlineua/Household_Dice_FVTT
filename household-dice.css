@@ -1,0 +1,82 @@
+#controls .household-dice-popup.control-tool {
+  font-size: 18px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.household-dice-popup:hover {
+  border: 1px solid #333 !important;
+  box-shadow: 0 0 10px #000 !important;
+}
+
+.household-dice-popup ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.household-dice-popup li {
+  display: block;
+  width: 48px;
+  text-align: center;
+  padding: 5px;
+  border-right: 1px solid #333;
+  height: 48px;
+  cursor: pointer;
+}
+
+.household-dice-popup li:hover {
+  color: #FFF;
+  border: 1px solid red;
+  border-bottom: 1px solid #ff6400;
+  box-shadow: 0 0 10px #ff6400;
+}
+
+.household-dice-popup li i {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.hhd-sub-controls {
+  position: absolute;
+  left: 4.2rem;
+}
+
+.hhd-roll-message h1 {
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hhd-roll-message .dice-rolls {
+  list-style: none;
+  margin: 5px 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hhd-roll-message .dice {
+  min-width: 36px;
+  min-height: 36px;
+  float: left;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: 36px 36px;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hhd-roll-message .roll-results {
+  font-weight: bold;
+}
+
+.hhd-roll-message .extremeSuccess, .impossibleSuccess {
+  text-transform: uppercase;
+}

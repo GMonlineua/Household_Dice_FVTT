@@ -1,0 +1,36 @@
+{
+  "id": "household-dice",
+  "title": "Household Dice",
+  "description": "Adds a dice tray below chat and allow roll dice like household custom dice",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "GMonline-ua",
+      "url": "https://github.com/GMonlineua",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "household-dice.js"
+  ],
+  "styles": [
+    "household-dice.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/GMonlineua/Household_Dice_FVTT",
+  "manifest": "https://raw.githubusercontent.com/GMonlineua/Household_Dice_FVTT/master/system.json",
+  "download": "https://codeload.github.com/GMonlineua/Household_Dice_FVTT/zip/refs/heads/master",
+  "license": "https://github.com/GMonlineua/Household_Dice_FVTT/blob/master/LICENSE.md"
+}

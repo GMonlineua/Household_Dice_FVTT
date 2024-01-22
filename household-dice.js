@@ -133,12 +133,12 @@ console.log("HHD | Household Dice Roller loaded");
 
 Handlebars.registerHelper('getImageForValue', function(value) {
   const images = [
-    '/modules/household-dice/assets/house.webp',
-    '/modules/household-dice/assets/hearts.webp',
-    '/modules/household-dice/assets/diamonds.webp',
-    '/modules/household-dice/assets/clubs.webp',
-    '/modules/household-dice/assets/spades.webp',
-    '/modules/household-dice/assets/hold.webp'
+    '/modules/household-dice/assets/house.svg',
+    '/modules/household-dice/assets/heart.svg',
+    '/modules/household-dice/assets/diamond.svg',
+    '/modules/household-dice/assets/club.svg',
+    '/modules/household-dice/assets/spade.svg',
+    '/modules/household-dice/assets/joker.svg'
   ];
 
   return images[value - 1];

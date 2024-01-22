@@ -64,9 +64,11 @@
   min-width: 36px;
   min-height: 36px;
   float: left;
-  margin-right: 5px;
+  margin: 5px;
   background-repeat: no-repeat;
-  background-size: 36px 36px;
+  background-position: center;
+  background-size: 32px 32px;
+  background-color: white;
   font-size: 16px;
   color: #000;
   font-weight: bold;

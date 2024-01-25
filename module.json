@@ -30,7 +30,7 @@
     }
   ],
   "url": "https://github.com/GMonlineua/Household_Dice_FVTT",
-  "manifest": "https://raw.githubusercontent.com/GMonlineua/Household_Dice_FVTT/master/module.json",
-  "download": "https://codeload.github.com/GMonlineua/Household_Dice_FVTT/zip/refs/heads/master",
-  "license": "https://github.com/GMonlineua/Household_Dice_FVTT/blob/master/LICENSE.md"
+  "manifest": "https://raw.githubusercontent.com/GMonlineua/Household_Dice_FVTT/main/module.json",
+  "download": "https://codeload.github.com/GMonlineua/Household_Dice_FVTT/zip/refs/heads/main",
+  "license": "https://github.com/GMonlineua/Household_Dice_FVTT/blob/main/LICENSE.md"
 }

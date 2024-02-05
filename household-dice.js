@@ -47,7 +47,7 @@ class HouseholdDice {
     await roll.evaluate({ async: true });
 
     let rollResult = {
-      commonDice: roll.terms[0].results.map((result) => ({ value: result.result, used: false })),
+      dice: roll.terms[0].results.map(result => result.result),
       basicSuccess: 0,
       criticalSuccess: 0,
       extremeSuccess: 0,
@@ -56,8 +56,8 @@ class HouseholdDice {
     };
 
     // Count the occurrences of each dice value
-    const diceCounts = rollResult.commonDice.reduce((counts, die) => {
-        counts[die.value] = (counts[die.value] || 0) + 1;
+    const diceCounts = rollResult.dice.reduce((counts, die) => {
+        counts[die] = (counts[die] || 0) + 1;
         return counts;
     }, {});
 

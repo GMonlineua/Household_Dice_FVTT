@@ -3,8 +3,8 @@
 
   <div class="roll-info">
     <ol class="dice-rolls">
-      {{#each commonDice }}
-        <li class="dice" style="background-image: url('{{getImageForValue this.value}}');"></li>
+      {{#each dice }}
+        <li class="dice" style="background-image: url('{{getImageForValue this}}');"></li>
       {{/each}}
     </ol>
   </div>

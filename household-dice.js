@@ -44,7 +44,7 @@ class HouseholdDice {
     const diceCount = event.target.dataset.diceRoll;
     let formula = diceCount + "d6"
     const roll = new Roll(formula);
-    await roll.evaluate({ async: true });
+    await roll.evaluate();
 
     let rollResult = {
       dice: roll.terms[0].results.map(result => result.result),
@@ -88,7 +88,6 @@ class HouseholdDice {
     const chatData = {
       user: game.user._id,
       content: chatMessage,
-      type: CONST.CHAT_MESSAGE_TYPES.ROLL,
       sound: CONFIG.sounds.dice
     };
 
@@ -125,11 +124,8 @@ class HouseholdDice {
 }
 
 Hooks.on('renderSceneControls', (controls, html) => {
-  console.log("HHD here", html);
   HouseholdDice.Init(controls, html);
 });
-
-console.log("HHD | Household Dice Roller loaded");
 
 Handlebars.registerHelper('getImageForValue', function(value) {
   const images = [

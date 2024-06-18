@@ -12,10 +12,10 @@ To install a module, follow these instructions:
 2. Select the Install Module button and enter the following URL: https://raw.githubusercontent.com/GMonlineua/Household_Dice_FVTT/main/module.json
 3. Click Install and wait for installation to complete
 
-[Foundry Shield 11]: https://img.shields.io/badge/Foundry-11-informational?style=flat-square
+[Foundry Shield 11]: https://img.shields.io/badge/Foundry-12-informational?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-1.1-orange?style=flat-square
+[Version]: https://img.shields.io/badge/Version-1.2-orange?style=flat-square
 [Version URL]: https://github.com/GMonlineua/Household_Dice_FVTT
 
 [GNU License]: https://img.shields.io/badge/License-GNU-green?style=flat-square
